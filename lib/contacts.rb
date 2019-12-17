@@ -7,7 +7,7 @@ require 'pry'
        email: "jon_snow@thewall.we", 
        favorite_ice_cream_flavors: ["chocolate", "vanilla"]
      },
-    "Freddy Mercury" => {
+    :Freddy_Mercury => {
        name: "Freddy",
        email: "freddy@mercury.com",
        favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
@@ -15,7 +15,8 @@ require 'pry'
    }
   
 def remove_strawberry(contacts)
-  contacts[:name]
+  contacts[:Freddy_Mercury].each do |a,b|
+    
   
 
 end
